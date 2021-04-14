@@ -75,10 +75,12 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hello there {}, my name is {}! 
 I am an Anime themed group management bot.
+
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
+
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
-You can find my list of available commands with /help.
+
 """
 
 HELP_STRINGS = """
