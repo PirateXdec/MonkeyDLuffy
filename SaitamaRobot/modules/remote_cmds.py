@@ -18,9 +18,9 @@ RBAN_ERRORS = {
     "User_not_participant",
     "Peer_id_invalid",
     "Group chat was deactivated",
-    "Need to be inviter of a user to punch it from a basic group",
+    "Need to be inviter of a user to kick it from a basic group",
     "Chat_admin_required",
-    "Only the creator of a basic group can punch group administrators",
+    "Only the creator of a basic group can punch kick administrators",
     "Channel_private",
     "Not in the chat",
 }
