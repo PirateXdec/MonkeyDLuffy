@@ -613,7 +613,7 @@ Group admins/group owners do not need these commands.
  ╔ *Remote commands:*
  ╠ `/rban user group`*:* Remote ban
  ╠ `/runban user group`*:* Remote un-ban
- ╠ `/rpunch user group`*:* Remote punch
+ ╠ `/rkick user group`*:* Remote kick
  ╠ `/rmute user group`*:* Remote mute
  ╚ `/runmute user group`*:* Remote un-mute
 
