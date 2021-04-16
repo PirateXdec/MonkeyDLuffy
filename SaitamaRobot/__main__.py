@@ -89,7 +89,7 @@ I am A Group Management Bot which helps you to maintain your group.
 
 If I am Not Working Then You Can Report Me At @OnePieceSupport
 
-*Main* commands available:
+*Main*[PRO](https://telegra.ph/file/2e22ba611a5ffd4c060d8.jpg) commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /settings:
