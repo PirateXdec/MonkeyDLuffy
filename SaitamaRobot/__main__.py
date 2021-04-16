@@ -84,12 +84,12 @@ Press /help to see all the commands and how they work!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *{}*[.](https://telegra.ph/file/2e22ba611a5ffd4c060d8.jpg) 
 I am A Group Management Bot which helps you to maintain your group.
 
 If I am Not Working Then You Can Report Me At @OnePieceSupport
 
-*Main*[PRO](https://telegra.ph/file/2e22ba611a5ffd4c060d8.jpg) commands available:
+*Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /settings:
@@ -159,11 +159,7 @@ def send_help(chat_id, text, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     dispatcher.bot.send_message(
-        chat_id=chat_id,
-        text=text,
-        parse_mode=ParseMode.MARKDOWN,
-        disable_web_page_preview=True,
-        reply_markup=keyboard,
+        chat_id=chat_id, text=text, parse_mode=ParseMode.MARKDOWN, reply_markup=keyboard
     )
 
 
