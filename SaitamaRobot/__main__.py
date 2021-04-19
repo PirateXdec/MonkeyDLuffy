@@ -84,7 +84,7 @@ Press /help to see all the commands and how they work!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*[.](https://telegra.ph/file/2e22ba611a5ffd4c060d8.jpg) 
+Hey there! My name is *{}*[.](https://telegra.ph/file/5d1b138d269cb22820b99.mp4) 
 I am A Group Management Bot which helps you to maintain your group.
 
 If I am Not Working Then You Can Report Me At @OnePieceSupport
