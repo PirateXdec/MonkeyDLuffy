@@ -4,6 +4,9 @@ import sys
 import time
 import spamwatch
 
+from .progress import progress
+from .tools import human_to_bytes, humanbytes, md5, time_formatter
+
 import telegram.ext as tg
 from telethon import TelegramClient
 
