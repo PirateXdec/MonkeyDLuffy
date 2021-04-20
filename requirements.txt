@@ -34,6 +34,8 @@ pyrogram
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
+youtube_search
+youtube_search_python
 alphabet_detector
 pyrate-limiter
 gtts
