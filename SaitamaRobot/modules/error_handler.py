@@ -5,7 +5,6 @@ import html
 import random
 import traceback
 import sys
-import pretty_errors
 import io
 from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import CallbackContext, CommandHandler
