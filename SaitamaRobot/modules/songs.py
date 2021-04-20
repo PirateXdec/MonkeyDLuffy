@@ -1,3 +1,18 @@
+# Thanks to @p_rinc_e
+from pathlib import Path
+import asyncio, time, io, math, os, logging, asyncio, shutil, re, subprocess, json
+from re import findall
+from asyncio import sleep
+from telethon.events import NewMessage
+from telethon.tl.custom import Dialog
+from datetime import datetime as dt
+from pytz import country_names as c_n, country_timezones as c_tz, timezone as tz
+from hachoir.parser import createParser
+import pybase64
+from base64 import b64decode
+from pySmartDL import SmartDL
+from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
+from telethon import events
 
 from SaitamaRobot.events import register
 from SaitamaRobot.utils import progress
@@ -263,9 +278,9 @@ async def download_video(v_url):
 
 
 __help__ = """
-  /song <songname artist(optional)>: uploads the song in it's best quality available
+ ➩ /song <songname artist(optional)>: uploads the song in it's best quality available
 
-  /video <songname artist(optional)>: uploads the video song in it's best quality available
+ ➩ /video <songname artist(optional)>: uploads the video song in it's best quality available
 """
 
 __mod_name__ = "SONGS"
