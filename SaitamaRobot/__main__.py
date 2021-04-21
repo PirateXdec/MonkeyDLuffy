@@ -237,8 +237,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="👒 New in the Crew ?",
-                                callback_data="help_back",
+                                text="👒 Help?",
+                                url="t.me/{}?start=help".format(context.bot.username),
                             )
                         ],
                         [
