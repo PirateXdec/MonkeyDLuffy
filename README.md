@@ -49,9 +49,11 @@ Saitama is a simple one-punch solution to your group management needs and has be
 
 Should you be forking this repo then do not forget to star it - <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PR1NC3C0D3/MONKEYDLUFFY?color=white&label=%F0%9F%8C%9F%20star">
 
-## Deploy (≧▽≦)
-* [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](heroku.com/deploy?template=https://github.com/PR1NC3C0D3/MonkeyDLuffy)
+## Read these notes carefully before proceeding (≧▽≦)
+* Your code must be open source and a link to your fork's repository must be there in the start reply of the bot.
+* Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats.
+* 
 
-## Credits ( ╹▽╹ )
-* Well, it's all in the commit history 
-Feel free to open pull requests should any be missing.
+
+
+
