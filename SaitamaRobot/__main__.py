@@ -238,7 +238,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="👒 New in the Crew ?",
-                                url="https://t.me/MonkeyDLuffyUpdates/2",
+                                callback_data="help_back",
                             )
                         ],
                         [
