@@ -238,8 +238,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="👒 New in the Crew ?", 
-                                url="t.me/{}?start=help".format(context.bot.username)",
-
+                                url="t.me/{}?start=help".format(context.bot.username),
                             )
                       
 
