@@ -243,8 +243,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🏴‍☠ Source code",
-                                url="https://t.me/joinchat/YSUZCCxE-UI1MGE1",
+                                callback_data="help_back".format(bot.username),
                             )
                         ],
                     ]
