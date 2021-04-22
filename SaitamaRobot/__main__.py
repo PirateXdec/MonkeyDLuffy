@@ -227,11 +227,11 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🏴‍☠Support Group🏴‍☠",
+                                text="Support Group",
                                 url=f"https://t.me/OnePieceSupport",
                             ),
                             InlineKeyboardButton(
-                                text="☠Updates Channel☠",
+                                text="Updates Channel",
                                 url="https://t.me/MonkeyDLuffyUpdates",
                             ),
                         ],
