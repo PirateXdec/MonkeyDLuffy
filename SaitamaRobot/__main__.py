@@ -227,17 +227,17 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
+                                text="🏴‍☠Support Group🏴‍☠",
                                 url=f"https://t.me/OnePieceSupport",
                             ),
                             InlineKeyboardButton(
-                                text="Updates Channel",
+                                text="☠Updates Channel☠",
                                 url="https://t.me/MonkeyDLuffyUpdates",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Source code", 
+                                text="🖇Source code🖇", 
                                 url="https://t.me/joinchat/YSUZCCxE-UI1MGE1",
                             )
                       
@@ -245,7 +245,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Ship guide",
+                                text="🔓Ship guide🔓",
                                 url="t.me/{}?start=help".format(context.bot.username),
                             )
                         ],
