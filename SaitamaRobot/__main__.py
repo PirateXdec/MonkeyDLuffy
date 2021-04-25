@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Luffy to your group ➕",
+                                text="➕ Add Luffy To Your Group ➕",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -237,7 +237,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🖇Source code🖇", 
+                                text="🖇Source Code🖇", 
                                 url="https://t.me/joinchat/YSUZCCxE-UI1MGE1",
                             )
                       
@@ -245,7 +245,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🔓Ship guide🔓",
+                                text="🔓Ship Guide🔓",
                                 url="t.me/{}?start=help".format(context.bot.username),
                             )
                         ],
