@@ -254,12 +254,16 @@ def start(update: Update, context: CallbackContext):
                 ),
             )
     else:
-             update.effective_message.reply_video(
-                LUFFY_VID, caption=f"Hmmm , I am gonna be the king of the pirates\n<b>I have been training since:</b><code>{}</code>"
-                 .format(
-                uptime
-            ),parse_mode=ParseMode.HTML,
+             
+            update.effective_message.reply_video(
+                LUFFY_VID, caption=f"Hmmm , I am gonna be the king of the pirates"
         )
+            update.effective_message.reply_text(
+            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+                uptime
+            ),
+            parse_mode=ParseMode.HTML,
+            )
 
 
 # for test purposes
