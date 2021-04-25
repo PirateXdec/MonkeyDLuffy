@@ -105,6 +105,7 @@ And the following:
 )
 
 SAITAMA_IMG = "https://telegra.ph/Monkey-d-luffy-04-04-3"
+LUFFY_VID = "https://telegra.ph/file/8e83ad84283c971072308.mp4"
 
 DONATE_STRING = """No need to waste your money here"""
 
@@ -253,11 +254,10 @@ def start(update: Update, context: CallbackContext):
                 ),
             )
     else:
-        update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+             update.effective_message.reply_video(
+                LUFFY_VID, caption=f"Hmmm , I am gonna be the king of the pirates\n<b>Ihave been training since:</b> <code>{}</code>".format(
                 uptime
-            ),
-            parse_mode=ParseMode.HTML,
+            ),parse_mode=ParseMode.HTML,
         )
 
 
