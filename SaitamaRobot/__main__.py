@@ -94,7 +94,7 @@ If I am Not Working Then You Can Report Me At @OnePieceSupport
  • /help <module name>: PM's you info about that module.
  • /settings:
    • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+   • in a group: will redirect you to pm, with all that chat's settings[.](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
 
 
 {}
