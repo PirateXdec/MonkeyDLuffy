@@ -78,8 +78,8 @@ I am an Anime themed group management bot[.](https://telegra.ph/file/40cfa38c48f
 
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
 
-❓ WHAT ARE THE COMMANDS? ❓
-Press /help to see all the commands and how they work!
+*Press /help to see all commands.*
+
 
 """
 
