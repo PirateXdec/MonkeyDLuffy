@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello there {}, my name is {}!
-I am an Anime themed group management bot.
+I am an Anime themed group management bot[.](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
 
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
 
@@ -94,7 +94,7 @@ If I am Not Working Then You Can Report Me At @OnePieceSupport
  • /help <module name>: PM's you info about that module.
  • /settings:
    • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings[.](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
+   • in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
