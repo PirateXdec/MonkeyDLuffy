@@ -247,7 +247,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🔓Ship Guide🔓", 
-                                url="t.me/{}?start=help".format(context.bot.username).
+                                url="t.me/{}?start=help".format(context.bot.username),
                             )
                         ],
                     ]
