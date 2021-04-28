@@ -61,3 +61,4 @@ youtube_search
 pymongo
 pretty_errors
 motor
+dnspython
