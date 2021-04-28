@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello there {}, my name is {}! 
-[✪] (https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
+[✪](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
 I am an Anime themed group management bot.
 
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
