@@ -74,6 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello there {}, my name is {}! 
+[✪] (https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
 I am an Anime themed group management bot.
 
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
@@ -208,9 +209,8 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_photo(
-                SAITAMA_IMG,
-                PM_START_TEXT.format(
+            update.effective_message.reply_text(
+              PM_START_TEXT.format(
                     escape_markdown(first_name), escape_markdown(context.bot.first_name)
                 ),
                 parse_mode=ParseMode.MARKDOWN,
