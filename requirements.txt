@@ -60,3 +60,4 @@ youtube_search_python
 youtube_search
 pymongo
 pretty_errors
+motor
