@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello there {}, my name is {}![.]("https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg")
+Hello there {}, my name is {}! 
 
-I am an Anime themed group management bot 
+I am an Anime themed group management bot [.]("https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg")
 
 
 
