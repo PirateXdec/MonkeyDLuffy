@@ -75,19 +75,16 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hello there {}, my name is {}! 
-
-I am an Anime themed group management bot
-
-
+I am an Anime themed group management bot.
 
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
 
-*Press /help to see all commands.*
-
+❓ WHAT ARE THE COMMANDS? ❓
+Press /help to see all the commands and how they work!
 
 """
 
-HELP_STRINGS = """ 
+HELP_STRINGS = """
 Hey there! My name is *{}*[.](https://telegra.ph/file/5d1b138d269cb22820b99.mp4) 
 I am A Group Management Bot which helps you to maintain your group.
 
@@ -108,8 +105,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG ="https://telegra.ph/Monkey-d-luffy-04-04-3"
-LUFFY_VID = "https://telegra.ph/file/8e83ad84283c971072308.mp4"
+SAITAMA_IMG = "https://telegra.ph/Monkey-d-luffy-04-04-3"
 
 DONATE_STRING = """No need to waste your money here"""
 
@@ -213,7 +209,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_text( 
+            update.effective_message.reply_photo(
                 SAITAMA_IMG,
                 PM_START_TEXT.format(
                     escape_markdown(first_name), escape_markdown(context.bot.first_name)
@@ -224,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Luffy To Your Group ➕",
+                                text="➕ Add Luffy to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -232,42 +228,35 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
+                                text="⚓ Support Group",
                                 url=f"https://t.me/OnePieceSupport",
                             ),
                             InlineKeyboardButton(
-                                text="Updates Channel",
+                                text="☠ Updates Channel",
                                 url="https://t.me/MonkeyDLuffyUpdates",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🖇Source Code🖇", 
-                                url="https://t.me/joinchat/YSUZCCxE-UI1MGE1",
+                                text="👒 Help?",
+                                url="t.me/{}?start=help".format(context.bot.username),
                             )
-                      
-
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🔓Ship Guide🔓", 
-                                url="t.me/{}?start=help".format(context.bot.username),
+                                callback_data="help_back".format(bot.username),
                             )
                         ],
                     ]
                 ),
             )
     else:
-             
-            update.effective_message.reply_video(
-                LUFFY_VID, caption=f"Hmmm , I am gonna be the king of the pirates"
-        )
-            update.effective_message.reply_text(
+        update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
-            )
+        )
 
 
 # for test purposes
@@ -324,7 +313,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="● Back ●", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
                 ),
             )
 
