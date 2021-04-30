@@ -244,7 +244,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                callback_data="help_back".format(bot.username),
+                                callback_data="help_back".format(context.bot.username),
                             )
                         ],
                     ]
