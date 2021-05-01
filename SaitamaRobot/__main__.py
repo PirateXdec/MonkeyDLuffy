@@ -65,7 +65,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 PM_START_TEXT = """
 Hello there {}, my name is {}!
-I am an Anime themed group management bot.
+I am an Anime themed group management bot[.](https://telegra.ph/Monkey-d-luffy-04-04-3)
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
