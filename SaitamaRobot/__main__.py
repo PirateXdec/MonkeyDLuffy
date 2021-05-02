@@ -65,7 +65,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 PM_START_TEXT = """
 Hello there {}, my name is {}!
-I am an Anime themed group management bot[.](https://telegra.ph/Monkey-d-luffy-04-04-3)
+I am an Anime themed group management bot[.](https://telegra.ph/file/8cf2668bfb1c6fd549e3c.mp4)
 Join my 👒 Straw hats pirate crew 👒 by adding me to your group.
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
@@ -86,7 +86,7 @@ And the following:
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
-SAITAMA_IMG = "https://telegra.ph/Monkey-d-luffy-04-04-3"
+SAITAMA_IMG = "https://telegra.ph/file/8cf2668bfb1c6fd549e3c.mp4"
 LUFFY_VID = "https://telegra.ph/file/8e83ad84283c971072308.mp4"
 DONATE_STRING = """No need to waste your money here"""
 IMPORTED = {}
