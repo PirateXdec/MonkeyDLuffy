@@ -86,7 +86,7 @@ And the following:
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
-SAITAMA_VID = "https://telegra.ph/file/8cf2668bfb1c6fd549e3c.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/8cf2668bfb1c6fd549e3c.mp4"
 LUFFY_VID = "https://telegra.ph/file/8e83ad84283c971072308.mp4"
 DONATE_STRING = """No need to waste your money here"""
 IMPORTED = {}
