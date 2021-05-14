@@ -1,6 +1,6 @@
-from Harita import CMD_HELP
-from Harita.events import register
-from Harita import tbot, OWNER_ID
+from SaitamaRobot import CMD_HELP
+from SaitamaRobot.events import register
+from SaitamaRobot import tbot, OWNER_ID
 import os
 from PIL import Image, ImageDraw, ImageFont
 
