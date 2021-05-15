@@ -67,7 +67,7 @@ PM_START_TEXT = """
 👒 •••• ｢ Luffy The Pirate King Bot 」•••• 👒
 
 Hello there {}, my name is {}!
-I am a Anime Themed Group Management Bot and I will help in managing your group.
+I am a Anime Themed Group Management Bot and I will help in managing your group[.](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
 
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
