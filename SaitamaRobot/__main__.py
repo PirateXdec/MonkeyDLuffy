@@ -67,10 +67,11 @@ PM_START_TEXT = """
 👒 •••• ｢ Luffy The Pirate King Bot 」•••• 👒
 
 Hello there {}, my name is {}!
-I am a Anime Themed Group Management Bot and I will help in managing your group[.](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
+I am a Anime Themed Group Management Bot and I will help in managing your group
 
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
+[.](https://telegra.ph/file/40cfa38c48f79610a9cdf.jpg)
 """
 HELP_STRINGS = """
 Hey there! My name is *{}*[.](https://telegra.ph/file/5d1b138d269cb22820b99.mp4) 
@@ -172,8 +173,8 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_photo(
-                SAITAMA_IMG,
+            update.effective_message.reply_text(
+                #SAITAMA_IMG,
                 PM_START_TEXT.format(
                     escape_markdown(first_name), escape_markdown(context.bot.first_name)
                 ),
