@@ -76,11 +76,14 @@ Press /help to see all the commands and how they work!
 HELP_STRINGS = """
 Hey there! My name is *{}*[.](https://telegra.ph/file/f410c8dd2f6a1c1f7fb0b.jpg) 
 I am A Group Management Bot which helps you to maintain your group.
-If I am Not Working Then You Can Report Me At @OnePieceSupport
+
+If you want to report any bugs or need any help with setting up Luffy, reach us at @OnePieceSupport.
+
 *Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /settings:
+
+ ☠️ /help: PM's you this message.
+ ☠️ /help <module name>: PM's you info about that module.
+ ☠️ /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
 {}
