@@ -354,6 +354,43 @@ def help_button(update, context):
 
 
 @run_async
+def saitama_about_callback(update: Update, context: CallbackContext):
+    query = update.callback_query
+    if query.data == "saitama_":
+        query.message.edit_text(
+            text=""" ℹ️ I'm Luffy, a powerful group management bot built to help you manage your group easily.
+                 ❍ I can restrict users.
+                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
+                 ❍ I have an advanced anti-flood system.
+                 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 ❍ I check for admins' permissions before executing any command and more stuffs
+                 
+Luffy's licensed under the GNU General Public License v3.0
+                 Here is the 💾Repository.
+                 If you have any question about Luffy, let us know at @OnePieceSupport.""",
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="Back", callback_data="saitama_back")
+                 ]
+                ]
+            ),
+        )
+    elif query.data == "saitama_back":
+        query.message.edit_text(
+                PM_START_TEXT,
+                reply_markup=InlineKeyboardMarkup(buttons),
+                parse_mode=ParseMode.MARKDOWN,
+                timeout=60,
+                disable_web_page_preview=False,
+        )
+
+
+
+@run_async
 def get_help(update: Update, context: CallbackContext):
     chat = update.effective_chat  # type: Optional[Chat]
     args = update.effective_message.text.split(None, 1)
