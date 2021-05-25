@@ -221,7 +221,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
           update.effective_message.reply_video(
-                LUFFY_VID, caption=f"Hmmm , I am gonna be the king of the pirates"
+                LUFFY_VID, caption=f"I Am Gonna Be The King Of The Pirates"
         )
            
 
