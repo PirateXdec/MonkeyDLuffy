@@ -71,7 +71,7 @@ I am a Anime Themed Group Management Bot and I will help in managing your group
 
 ❓ WHAT ARE THE COMMANDS? ❓
 Press /help to see all the commands and how they work!
-[.](https://telegra.ph/file/33b0fbab483557b4e11ef.jpg)
+[¯\_(ツ)_/¯](https://telegra.ph/file/33b0fbab483557b4e11ef.jpg)
 """
 HELP_STRINGS = """
 Hey there! My name is *{}*[.](https://telegra.ph/file/f410c8dd2f6a1c1f7fb0b.jpg) 
