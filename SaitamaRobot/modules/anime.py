@@ -552,6 +552,7 @@ Get information about anime, manga or characters from [AniList](anilist.co).
 • `/animespot`*:* Find anime from animespot website.
 
 • `/kayo`*:* Find anime from animekayo website.
+• `/animequotes`*:* gives random anime quotes
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime)
