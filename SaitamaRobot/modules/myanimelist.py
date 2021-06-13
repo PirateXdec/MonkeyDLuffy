@@ -192,15 +192,7 @@ def manga(update: Update, context: CallbackContext):
         )
 
 
-__help__ = """
-Get information about anime, manga or characters with the help of this module! All data is fetched from [MyAnimeList](https://myanimelist.net).
 
-*Available commands:*
- - /myanime <anime>: returns information about the anime.
- - /mycharacter <character>: returns information about the character.
- - /mmanga <manga>: returns information about the manga.
- - /myupcoming: returns a list of new anime in the upcoming seasons.
- """
 
 __mod_name__ = "MyAnimeList"
 
