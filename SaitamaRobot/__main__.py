@@ -200,7 +200,7 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="Updates Channel",
-                                url="https://t.me/botprotocol",
+                                url="https://t.me/MonkeyDLuffyUpdates",
                             ),
                         ],
                         [
