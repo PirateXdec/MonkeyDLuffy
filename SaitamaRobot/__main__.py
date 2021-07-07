@@ -196,7 +196,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Support Group",
-                                url=f"https://t.me/BotProtocolSupport",
+                                url=f"https://t.me/OnePieceSupport",
                             ),
                             InlineKeyboardButton(
                                 text="Updates Channel",
